@@ -35,156 +35,378 @@
   },
   "bbc": {
     "proxies":[
-      {
-        "alias":"bbc-www",
-        "domain":"www.bbc.co.uk",
+       {
+        "alias":"bbc-a.files.bbci.co.uk",
+        "domain":"a.files.bbci.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias":"bbc-ssl",
-        "domain":"ssl.bbc.co.uk",
+        "alias":"bbc-a1294.w20.akamai.net",
+        "domain":"a1294.w20.akamai.net",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias":"bbc-livestream",
-        "domain":"vs-hds-uk-live.edgesuite.net",
+        "alias":"bbc-a1507.b.akamai.net",
+        "domain":"a1507.b.akamai.net",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias":"bbc-vod-hls",
-        "domain":"vod-hls-uk-live.edgesuite.net",
+        "alias":"bbc-a18.w5.akamai.net",
+        "domain":"a18.w5.akamai.net",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias":"bbc-livestream-llnwd",
-        "domain":"vs-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "alias":"bbc-a389.w16.akamai.net",
+        "domain":"a389.w16.akamai.net",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias":"bbc-open-live",
+        "alias":"bbc-appletv.iplayer.api.bbc.co.uk",
+        "domain":"appletv.iplayer.api.bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-bbc.co.uk",
+        "domain":"bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-bbcdevice.vo.llnwd.net",
+        "domain":"bbcdevice.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-bbcdotcom.2cnt.net",
+        "domain":"bbcdotcom.2cnt.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-bbciplayer.metafaq.com",
+        "domain":"bbciplayer.metafaq.com",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-component.iplayer.api.bbc.co.uk",
+        "domain":"component.iplayer.api.bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-cp143012-i.akamaihd.net",
+        "domain":"cp143012-i.akamaihd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-e2842.e9.akamaiedge.net",
+        "domain":"e2842.e9.akamaiedge.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-e3891.g.akamaiedge.net",
+        "domain":"e3891.g.akamaiedge.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-e5886.x.akamaiedge.net",
+        "domain":"e5886.x.akamaiedge.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-e6428.e9.akamaiedge.net",
+        "domain":"e6428.e9.akamaiedge.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-emp.bbci.co.uk",
+        "domain":"emp.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ess.api.bbci.co.uk",
+        "domain":"ess.api.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-fig.bbc.co.uk",
+        "domain":"fig.bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-homepage.files.bbci.co.uk",
+        "domain":"homepage.files.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ibl.api.bbci.co.uk",
+        "domain":"ibl.api.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ic.b23e03f1.0a13b0.ve-hls-uk-live.bbcfmt.vo.llnwi.net",
+        "domain":"ic.b23e03f1.0a13b0.ve-hls-uk-live.bbcfmt.vo.llnwi.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ic.b23e03f1.0ccf6d.vod-hls-uk-live.bbcfmt.vo.llnwi.net",
+        "domain":"ic.b23e03f1.0ccf6d.vod-hls-uk-live.bbcfmt.vo.llnwi.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ichef-bbci.bbc.net.uk",
+        "domain":"ichef-bbci.bbc.net.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ichef.bbci.co.uk",
+        "domain":"ichef.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-iplayer-web.files.bbci.co.uk",
+        "domain":"iplayer-web.files.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-iplayerhelp.external.bbc.co.uk",
+        "domain":"iplayerhelp.external.bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-m.files.bbci.co.uk",
+        "domain":"m.files.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-mybbc.files.bbci.co.uk",
+        "domain":"mybbc.files.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-nav.files.bbci.co.uk",
+        "domain":"nav.files.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-navpromo.90fe2324ce3eb149.xhst.bbci.co.uk",
+        "domain":"navpromo.90fe2324ce3eb149.xhst.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-navpromo.api.bbci.co.uk",
+        "domain":"navpromo.api.bbci.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-open.live.bbc.co.uk",
         "domain":"open.live.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-securegate",
-        "domain": "securegate.iplayer.bbc.co.uk",
+        "alias":"bbc-r.bbc.net.uk",
+        "domain":"r.bbc.net.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "ibl-api",
-        "domain": "ibl.api.bbci.co.uk",
+        "alias":"bbc-r.bbci.co.uk",
+        "domain":"r.bbci.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-secure",
-        "domain": "secure.iplayer.bbc.co.uk",
+        "alias":"bbc-sa.bbc.co.uk",
+        "domain":"sa.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "opera-geo",
-        "domain": "get.geo.opera.com",
+        "alias":"bbc-search.bbc.co.uk",
+        "domain":"search.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbcdevice-llnwd",
-        "domain": "bbcdevice.vo.llnwd.net",
-        "protocols": ["http", "https"],
-        "dnat": false
-      },
-       {
-        "alias": "bbc-akamai",
-        "domain": "cp143012-i.akamaihd.net",
-        "protocols": ["http", "https"],
-        "dnat": false
-      },
-     {
-        "alias": "bbc-akamai2",
-        "domain": "a18.w5.akamai.net",
+        "alias":"bbc-search.bbc.net.uk",
+        "domain":"search.bbc.net.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-akamai3",
-        "domain": "e3891.g.akamaiedge.net",
-        "protocols": ["http", "https"],
-        "dnat": false
-      },
-        {
-        "alias": "bbc-akamai4",
-        "domain": "e6428.e9.akamaiedge.net",
-        "protocols": ["http", "https"],
-        "dnat": false
-      },
-       {
-        "alias": "bbc-akamai-5",
-        "domain": "a1507.b.akamai.net",
+        "alias":"bbc-search.files.bbci.co.uk",
+        "domain":"search.files.bbci.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-vod-llnwd",
-        "domain": "vod-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "alias":"bbc-secure.iplayer.bbc.co.uk",
+        "domain":"secure.iplayer.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-vod-llnwd-hls",
-        "domain": "vod-hls-uk-live.bbcfmt.vo.llnwd.net",
+        "alias":"bbc-securegate.iplayer.bbc.co.uk",
+        "domain":"securegate.iplayer.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-ic.b23e03f1.0ccf6d.vod-hls-uk-live.bbcfmt.vo.llnwi.net",
-        "domain": "ic.b23e03f1.0ccf6d.vod-hls-uk-live.bbcfmt.vo.llnwi.net",
+        "alias":"bbc-smp-live.e9645da448e0c4fd.xhst.bbci.co.uk",
+        "domain":"smp-live.e9645da448e0c4fd.xhst.bbci.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-vod-edgesuite",
-        "domain": "vod-hds-uk-live.edgesuite.net",
+        "alias":"bbc-ssc.api.bbc.com",
+        "domain":"ssc.api.bbc.com",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-fig",
-        "domain": "fig.bbc.co.uk",
+        "alias":"bbc-ssl.bbc.co.uk",
+        "domain":"ssl.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-ichef",
-        "domain": "ichef.bbci.co.uk",
+        "alias":"bbc-static-bbci.bbc.net.uk",
+        "domain":"static-bbci.bbc.net.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-ichef-net",
-        "domain": "ichef-bbci.bbc.net.uk",
+        "alias":"bbc-static.bbc.co.uk",
+        "domain":"static.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-appletv-iplayer",
-        "domain": "appletv.iplayer.api.bbc.co.uk",
+        "alias":"bbc-static.bbci.co.uk",
+        "domain":"static.bbci.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
       },
       {
-        "alias": "bbc-sa",
-        "domain": "sa.bbc.co.uk",
+        "alias":"bbc-stats.bbc.co.uk",
+        "domain":"stats.bbc.co.uk",
         "protocols": ["http", "https"],
         "dnat": false
-	  }
+      },
+      {
+        "alias":"bbc-tps-bbc-com.bbc.net.uk",
+        "domain":"tps-bbc-com.bbc.net.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-tps.bbc.com",
+        "domain":"tps.bbc.com",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ve-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "domain":"ve-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ve-hls-uk-live.bbcfmt.vo.llnwd.net",
+        "domain":"ve-hls-uk-live.bbcfmt.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-ve-hls-uk-live.edgesuite.net",
+        "domain":"ve-hls-uk-live.edgesuite.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vod-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "domain":"vod-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vod-hds-uk-live.edgesuite.net",
+        "domain":"vod-hds-uk-live.edgesuite.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vod-hls-uk-live.bbcfmt.vo.llnwd.net",
+        "domain":"vod-hls-uk-live.bbcfmt.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vod-hls-uk-live.edgesuite.net",
+        "domain":"vod-hls-uk-live.edgesuite.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vs-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "domain":"vs-hds-uk-live.bbcfmt.vo.llnwd.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-vs-hds-uk-live.edgesuite.net",
+        "domain":"vs-hds-uk-live.edgesuite.net",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-www.bbc.co.uk",
+        "domain":"www.bbc.co.uk",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-www.bbc.com",
+        "domain":"www.bbc.com",
+        "protocols": ["http", "https"],
+        "dnat": false
+      },
+      {
+        "alias":"bbc-www.s4c.cymru",
+        "domain":"www.s4c.cymru",
+        "protocols": ["http", "https"],
+        "dnat": false
+      }	  
     ]
   },
   "channel4": {
